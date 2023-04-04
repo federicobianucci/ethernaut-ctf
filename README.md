@@ -2,11 +2,11 @@
 
 ## Links
 
-[Ethernaut]https://ethernaut.openzeppelin.com/
+[Ethernaut](https://ethernaut.openzeppelin.com/)
 
-[Foundry]https://book.getfoundry.sh/
+[Foundry](https://book.getfoundry.sh/)
 
-[Getting an Etherscan API key]https://docs.etherscan.io/getting-started/viewing-api-usage-statistics
+[Getting an Etherscan API key](https://docs.etherscan.io/getting-started/viewing-api-usage-statistics)
 
 Levels that are not included here have been resolved directly on the browser console.
 
