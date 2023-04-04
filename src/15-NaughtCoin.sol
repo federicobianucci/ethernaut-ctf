@@ -14,7 +14,7 @@ contract NaughtCoin {
         naughtCoinInstance = INaughtCoin(_instanceAddress);
     }
 
-    function exploit(address _to) external {
+    function attack(address _to) external {
         bool success = naughtCoinInstance.transferFrom(msg.sender, _to, naughtCoinInstance.balanceOf(msg.sender));
         require(success, "Failed to transfer");
     }
