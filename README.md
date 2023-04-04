@@ -4,6 +4,8 @@ Ethernaut CTF solutions.
 
 Levels that are not included here have been resolved directly on the browser console.
 
+To get things more complicated I used a wallet to submit instances and another one for deploying contracts (don't want to expose the pk) :D
+
 ## Links
 
 [Ethernaut](https://ethernaut.openzeppelin.com/)
