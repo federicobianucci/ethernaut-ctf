@@ -38,6 +38,7 @@ forge script script/14-GatekeeperTwo.s.sol:GatekeeperTwoScript --rpc-url $SEPOLI
 forge script script/15-NaughtCoin.s.sol:NaughtCoinScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
 forge script script/16-Preservation.s.sol:PreservationScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
 forge script script/17-Recover.s.sol:RecoverScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
+forge script script/18-MagicNumber.s.sol:MagicNumberScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
 ```
 ### Test in a local Sepolia fork
 ```bash

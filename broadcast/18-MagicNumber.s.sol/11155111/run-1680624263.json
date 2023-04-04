@@ -1,0 +1,43 @@
+{
+  "transactions": [
+    {
+      "hash": "0x23650e6dc553753195d985e61f6ab679a6ee922e0fccd9f34419d058410299d3",
+      "transactionType": "CREATE",
+      "contractName": "MagicNumber",
+      "contractAddress": "0x3557a7C73392D1ae377c6EBa4Ed7dc6b5Caa73Fd",
+      "function": null,
+      "arguments": [
+        "0x35af11A7b7c954AF16b1Ab26d84B9612eB84FBA9"
+      ],
+      "rpc": "https://eth-sepolia.g.alchemy.com/v2/8n2B5RPrDM6FKCfm5F1R3JD4L_oGqJX5\r",
+      "transaction": {
+        "type": "0x02",
+        "from": "0x1733c691f9fce28141476f2d1121ba11a7a3b61b",
+        "gas": "0x24012",
+        "value": "0x0",
+        "data": "0x608060405234801561001057600080fd5b5060405161015038038061015083398101604081905261002f916100d3565b6040805180820190915260168082527f600a600c600039600a6000f3602a60805260206080f300000000000000000000602083019081526000919082f0604051631f87943360e01b81526001600160a01b03808316600483015291925090841690631f87943390602401600060405180830381600087803b1580156100b357600080fd5b505af11580156100c7573d6000803e3d6000fd5b50505050505050610103565b6000602082840312156100e557600080fd5b81516001600160a01b03811681146100fc57600080fd5b9392505050565b603f806101116000396000f3fe6080604052600080fdfea2646970667358221220ee8f4ed0a1d0f17c2dd69def8bf78805b167e94748cabe460aedbd77319926b664736f6c6343000811003300000000000000000000000035af11a7b7c954af16b1ab26d84b9612eb84fba9",
+        "nonce": "0x1a",
+        "accessList": []
+      },
+      "additionalContracts": [
+        {
+          "transactionType": "CREATE",
+          "address": "0x73a37A21F74ADe9a65E0C8d52742585b3c1cEa59",
+          "initCode": "600a600c600039600a6000f3602a60805260206080f3"
+        }
+      ],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0x23650e6dc553753195d985e61f6ab679a6ee922e0fccd9f34419d058410299d3"
+  ],
+  "path": "/mnt/c/Users/feder/workspace/ethernaut-ctf/broadcast/18-MagicNumber.s.sol/11155111/run-latest.json",
+  "returns": {},
+  "timestamp": 1680624263,
+  "chain": 11155111,
+  "multi": false,
+  "commit": "5f3709e"
+}

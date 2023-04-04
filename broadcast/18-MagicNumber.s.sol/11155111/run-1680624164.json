@@ -1,0 +1,43 @@
+{
+  "transactions": [
+    {
+      "hash": "0xc6b5460ae9ba4eda9b5310c01a74ca74dc7dac0563540ae32bbd966573f1bfdc",
+      "transactionType": "CREATE",
+      "contractName": "MagicNumber",
+      "contractAddress": "0xa3a777A65E447FCc962494F6C64149ACCdad3932",
+      "function": null,
+      "arguments": [
+        "0x35af11A7b7c954AF16b1Ab26d84B9612eB84FBA9"
+      ],
+      "rpc": "https://eth-sepolia.g.alchemy.com/v2/8n2B5RPrDM6FKCfm5F1R3JD4L_oGqJX5\r",
+      "transaction": {
+        "type": "0x02",
+        "from": "0x1733c691f9fce28141476f2d1121ba11a7a3b61b",
+        "gas": "0x25647",
+        "value": "0x0",
+        "data": "0x608060405234801561001057600080fd5b5060405161015038038061015083398101604081905261002f916100d3565b6040805180820190915260118082527f600a6007600039602a60805260206080f3000000000000000000000000000000602083019081526000919082f0604051631f87943360e01b81526001600160a01b03808316600483015291925090841690631f87943390602401600060405180830381600087803b1580156100b357600080fd5b505af11580156100c7573d6000803e3d6000fd5b50505050505050610103565b6000602082840312156100e557600080fd5b81516001600160a01b03811681146100fc57600080fd5b9392505050565b603f806101116000396000f3fe6080604052600080fdfea2646970667358221220855c4c80c00f133c4cc6d932512cfaa97803c79e523f88f9c8a29b4d671d030c64736f6c6343000811003300000000000000000000000035af11a7b7c954af16b1ab26d84b9612eb84fba9",
+        "nonce": "0x19",
+        "accessList": []
+      },
+      "additionalContracts": [
+        {
+          "transactionType": "CREATE",
+          "address": "0xa4fD895f55d3Ae4E14c85D199a1e0b1C732253e3",
+          "initCode": "600a6007600039602a60805260206080f3"
+        }
+      ],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0xc6b5460ae9ba4eda9b5310c01a74ca74dc7dac0563540ae32bbd966573f1bfdc"
+  ],
+  "path": "/mnt/c/Users/feder/workspace/ethernaut-ctf/broadcast/18-MagicNumber.s.sol/11155111/run-latest.json",
+  "returns": {},
+  "timestamp": 1680624164,
+  "chain": 11155111,
+  "multi": false,
+  "commit": "5f3709e"
+}
