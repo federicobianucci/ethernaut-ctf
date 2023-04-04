@@ -12,6 +12,13 @@ Levels that are not included here have been resolved directly on the browser con
 
 ## Commands
 
+### Start
+```bash
+git clone git@github.com:federicobianucci/ethernaut-ctf.git
+cd ethernaut-ctf
+git submodule update --init --recursive
+```
+
 ### Deploy to Sepolia
 ```bash
 forge script script/03-CoinFlip.s.sol:CoinFlipScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
