@@ -36,7 +36,8 @@ forge script script/11-Elevator.s.sol:ElevatorScript --rpc-url $SEPOLIA_RPC_URL 
 forge script script/13-GatekeeperOne.s.sol:GatekeeperOneScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
 forge script script/14-GatekeeperTwo.s.sol:GatekeeperTwoScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
 forge script script/15-NaughtCoin.s.sol:NaughtCoinScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
-forge script script/16-Preservation.s.sol:NaughtCoinScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
+forge script script/16-Preservation.s.sol:PreservationScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
+forge script script/17-Recover.s.sol:RecoverScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
 ```
 ### Test in a local Sepolia fork
 ```bash
