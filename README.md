@@ -1,5 +1,9 @@
 # Ethernaut CTF
 
+Ethernaut CTF solutions.
+
+Levels that are not included here have been resolved directly on the browser console.
+
 ## Links
 
 [Ethernaut](https://ethernaut.openzeppelin.com/)
@@ -9,8 +13,6 @@
 [How to Create a Private RPC Endpoint with Alchemy](https://www.alchemy.com/overviews/private-rpc-endpoint)
 
 [Getting an Etherscan API key](https://docs.etherscan.io/getting-started/viewing-api-usage-statistics)
-
-Levels that are not included here have been resolved directly on the browser console.
 
 ## Commands
 
