@@ -1,6 +1,6 @@
 # Ethernaut CTF
 
-# Links
+## Links
 
 https://ethernaut.openzeppelin.com/
 
@@ -28,7 +28,8 @@ forge test --match-path test/13-GatekeeperOneTest.t.sol --fork-url $SEPOLIA_RPC_
 forge test --match-path test/14-GatekeeperTwoTest.t.sol --fork-url $SEPOLIA_RPC_URL -vvvv
 forge test --match-path test/15-NaughtCoinTest.t.sol --fork-url $SEPOLIA_RPC_URL -vvvv
 ```
-#### Deploy with truffle dashboard (signature does not work with foundry but you can use your wallet to choose the rpc)
+### Deploy with truffle dashboard
 ```
+# signature does not work with foundry but you can use your wallet to choose the rpc
 forge script script/<contract>.s.sol:<contract-script> --rpc-url http://localhost:24012/rpc --broadcast -vvvv
 ```
