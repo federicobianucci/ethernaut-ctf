@@ -39,6 +39,8 @@ forge script script/15-NaughtCoin.s.sol:NaughtCoinScript --rpc-url $SEPOLIA_RPC_
 forge script script/16-Preservation.s.sol:PreservationScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
 forge script script/17-Recover.s.sol:RecoverScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
 forge script script/18-MagicNumber.s.sol:MagicNumberScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
+forge script script/19-AlienCodex.s.sol:AlienCodexScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
+forge script script/20-Denial.s.sol:DenialScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
 ```
 ### Test in a local Sepolia fork
 ```bash
@@ -46,6 +48,7 @@ forge test --match-path test/13-GatekeeperOne.t.sol --fork-url $SEPOLIA_RPC_URL 
 forge test --match-path test/14-GatekeeperTwo.t.sol --fork-url $SEPOLIA_RPC_URL -vvvv
 forge test --match-path test/15-NaughtCoin.t.sol --fork-url $SEPOLIA_RPC_URL -vvvv
 forge test --match-path test/16-Preservation.t.sol --fork-url $SEPOLIA_RPC_URL -vvvv
+forge test --match-path test/19-AlienCodex.t.sol --fork-url $SEPOLIA_RPC_URL -vvvv
 ```
 ### Deploy with truffle dashboard
 ```bash
