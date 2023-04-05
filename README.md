@@ -41,6 +41,7 @@ forge script script/17-Recover.s.sol:RecoverScript --rpc-url $SEPOLIA_RPC_URL --
 forge script script/18-MagicNumber.s.sol:MagicNumberScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
 forge script script/19-AlienCodex.s.sol:AlienCodexScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
 forge script script/20-Denial.s.sol:DenialScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
+forge script script/21-Shop.s.sol:ShopScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
 ```
 ### Test in a local Sepolia fork
 ```bash
