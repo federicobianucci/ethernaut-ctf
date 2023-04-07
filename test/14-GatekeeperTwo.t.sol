@@ -7,15 +7,15 @@ import "forge-std/console2.sol";
 import "../src/14-GatekeeperTwo.sol";
 
 contract GatekeeperTwoTest is Test {
+    address constant instanceAddress = 0x715aF8dABb8fB244e2942717cb03a4fA9d53cff3;
+
     function setUp() public {}
 
     function test_enter() public {
-        address instanceAddress = 0x715aF8dABb8fB244e2942717cb03a4fA9d53cff3;
         new GatekeeperTwo(instanceAddress);
     }
 
     function test_enter_with_deploy() public {
-        address instanceAddress = 0x715aF8dABb8fB244e2942717cb03a4fA9d53cff3;
         GatekeeperTwoDeployer deployer = new GatekeeperTwoDeployer(instanceAddress);
         vm.prank(0x715aF8dABb8fB244e2942717cb03a4fA9d53cff3, 0x715aF8dABb8fB244e2942717cb03a4fA9d53cff3);
         deployer.deploy();

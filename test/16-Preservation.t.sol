@@ -7,6 +7,7 @@ import "forge-std/console2.sol";
 import "../src/16-Preservation.sol";
 
 contract PreservationTest is Test {
+    address from = vm.envAddress("ETH_FROM");
     IPreservation public preservationInstance;
     Preservation public exploiter;
 
@@ -17,8 +18,8 @@ contract PreservationTest is Test {
     }
 
     function test_attack() public {
-        vm.prank(0xBF8641831D15c2701BA122981C3D7A6A2533ea48, 0xBF8641831D15c2701BA122981C3D7A6A2533ea48);
+        vm.prank(from, from);
         exploiter.attack();
-        assert(preservationInstance.owner() == 0xBF8641831D15c2701BA122981C3D7A6A2533ea48);
+        assert(preservationInstance.owner() == from);
     }
 }

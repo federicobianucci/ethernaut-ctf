@@ -7,15 +7,13 @@ import "forge-std/console2.sol";
 import "../src/25-Motorbike.sol";
 
 contract MotorbikeTest is Test {
-    Motorbike exploiter;
+    address from = vm.envAddress("ETH_FROM");
+    Motorbike exploiter = new Motorbike(0x79D2Bc4Fa524915C50C8cA3916F4F060114beE1e);
 
-    function setUp() public {
-        address implementationAddress = 0x79D2Bc4Fa524915C50C8cA3916F4F060114beE1e;
-        exploiter = new Motorbike(implementationAddress);
-    }
+    function setUp() public {}
 
     function test_attack() public {
-        vm.startPrank(0xBF8641831D15c2701BA122981C3D7A6A2533ea48, 0xBF8641831D15c2701BA122981C3D7A6A2533ea48);
+        vm.startPrank(from, from);
         exploiter.attack();
     }
 }

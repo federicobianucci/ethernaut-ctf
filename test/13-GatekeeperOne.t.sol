@@ -7,12 +7,9 @@ import "forge-std/console2.sol";
 import "../src/13-GatekeeperOne.sol";
 
 contract GatekeeperOneTest is Test {
-    GatekeeperOne public exploiter;
+    GatekeeperOne public exploiter = new GatekeeperOne(0x828d3D011f609fBca906582755A81f9c78Ec1613);
 
-    function setUp() public {
-        address instanceAddress = 0x828d3D011f609fBca906582755A81f9c78Ec1613;
-        exploiter = new GatekeeperOne(instanceAddress);
-    }
+    function setUp() public {}
 
     function test_enter() public {
         bool passed;

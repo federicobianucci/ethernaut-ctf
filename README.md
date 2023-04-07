@@ -46,6 +46,7 @@ forge script script/22-Dex.s.sol:DexScript --rpc-url $SEPOLIA_RPC_URL --broadcas
 forge script script/23-DexTwo.s.sol:DexTwoScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
 forge script script/24-PuzzleWallet.s.sol:PuzzleWalletScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
 forge script script/25-Motorbike.s.sol:MotorbikeScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
+forge script script/26-DoubleEntryPoint.s.sol:DoubleEntryPointScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
 ```
 ### Test in a local Sepolia fork
 ```bash
@@ -58,6 +59,7 @@ forge test --match-path test/22-Dex.t.sol --fork-url $SEPOLIA_RPC_URL -vvvv
 forge test --match-path test/23-DexTwo.t.sol --fork-url $SEPOLIA_RPC_URL -vvvv
 forge test --match-path test/24-PuzzleWallet.t.sol --fork-url $SEPOLIA_RPC_URL -vvvv
 forge test --match-path test/25-Motorbike.t.sol --fork-url $SEPOLIA_RPC_URL -vvvv
+forge test --match-path test/26-DoubleEntryPoint.t.sol --fork-url $SEPOLIA_RPC_URL -vvvv
 ```
 ### Deploy with truffle dashboard
 ```bash

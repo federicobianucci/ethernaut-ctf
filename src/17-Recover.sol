@@ -6,8 +6,6 @@ interface ISimpleToken {
 }
 
 contract Recover {
-    constructor() {}
-
     function recover(address _token) external {
         ISimpleToken(_token).destroy(payable(tx.origin));
     }
