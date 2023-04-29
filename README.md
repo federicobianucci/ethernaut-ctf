@@ -49,6 +49,7 @@ forge script script/25-Motorbike.s.sol:MotorbikeScript --rpc-url $SEPOLIA_RPC_UR
 forge script script/26-DoubleEntryPoint.s.sol:DoubleEntryPointScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
 forge script script/27-GoodSamaritan.s.sol:GoodSamaritanScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
 forge script script/28-GatekeeperThree.s.sol:GatekeeperThreeScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
+forge script script/29-Switch.s.sol:SwitchScript --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvvv
 ```
 ### Test in a local Sepolia fork
 ```bash
@@ -64,6 +65,7 @@ forge test --match-path test/25-Motorbike.t.sol --fork-url $SEPOLIA_RPC_URL -vvv
 forge test --match-path test/26-DoubleEntryPoint.t.sol --fork-url $SEPOLIA_RPC_URL -vvvv
 forge test --match-path test/27-GoodSamaritan.t.sol --fork-url $SEPOLIA_RPC_URL -vvvv
 forge test --match-path test/28-GatekeeperThree.t.sol --fork-url $SEPOLIA_RPC_URL -vvvv
+forge test --match-path test/29-Switch.t.sol --fork-url $SEPOLIA_RPC_URL -vvvv
 ```
 ### Deploy with truffle dashboard
 ```bash
