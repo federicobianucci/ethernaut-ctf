@@ -17,7 +17,7 @@ contract DoubleEntryPointScript is Script {
         uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
         vm.startBroadcast(deployerPrivateKey);
         DetectionBot bot = new DetectionBot();
-        depToken.forta().setDetectionBot(address(bot)); // player should do this before submitting the solution
+        // depToken.forta().setDetectionBot(address(bot)); // player has to do this before submitting the solution
         vm.stopBroadcast();
     }
 }
